@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+:root { --primary: #0a1628; --accent: #c5a047; --bg: #f8f6f0; --text: #0a1628; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Inter', sans-serif; color: var(--text); background-color: var(--bg); overflow-x: hidden; }
+h1,h2,h3,h4,h5,h6 { font-family: 'Playfair Display', serif; }
+.gradient-text { background: linear-gradient(135deg, #0a1628 0%, #1a2744 50%, #c5a047 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.glass { background: rgba(255,255,255,0.1); backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,0.15); }
